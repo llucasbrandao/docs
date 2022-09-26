@@ -17,6 +17,7 @@ jobs:
     working_directory: ~/docs
     
     steps:
+      - checkout
       - kubernetes/install-kubectl:
         kubectl-version: latest 
 
@@ -42,6 +43,7 @@ jobs:
     working_directory: ~/docs
     
     steps:
+      - checkout
       - kubernetes/install-kubectl:
         kubectl-version: latest 
 
