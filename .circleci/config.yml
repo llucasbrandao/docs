@@ -59,7 +59,7 @@ jobs:
 
 workflows:
   version: 2
-  mycryptolist-deployment-workflow:
+  docs-deployment-workflow:
     jobs:
       - deployment-approval:
           name: Waiting approval
